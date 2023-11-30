@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mi</title>
+    <title>Contacto</title>
     <link rel="shortcut icon" href="../img/DavidFlores.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Roboto+Condensed:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 <body>
     <header id="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 
-                <a href="../index.html">
-                    <img src="./img/DavidFlores.png" alt="logo">
+                <a href="./index.html">
+                    <img src="../img/DavidFlores.png" alt="logo">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,15 +29,15 @@
                     <a class="nav-link active" aria-current="page" href="../mi-proyecto/index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/sobremi.html">Sobre Mi</a>
+                    <a class="nav-link" href=".//pages/sobremi.html">Sobre Mi</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Proyectos
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./audio.html">Proyectos de Audio</a></li>
-                      <li><a class="dropdown-item" href="./video.html">Proyectos de Video</a></li>
+                      <li><a class="dropdown-item" href="./pages/audio.html">Proyectos de Audio</a></li>
+                      <li><a class="dropdown-item" href="./pages/video.html">Proyectos de Video</a></li>
                 
                     </ul>
                   </li>
@@ -51,37 +52,30 @@
           </nav>
     </header>
 
-
-    <main id="sobreMi">
-        <h1>Sobre mi</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis ipsam nesciunt.  Dolorem, ex animi excepturi eveniet repellendus autem, illo error perferendis sapiente rerum soluta consectetur natus, dicta facere pariatur!</p>
+    <main id="contacto">
+        <h1>Contacto</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla, quos modi explicabo incidunt itaque eius dicta repudiandae culpa perferendis debitis, impedit minus doloribus cumque alias et voluptatum vitae hic.</p>
     </main>
 
-    <div class="listaMi">
-        <ol>
-            <li>1 Lorem ipsum dolor sit amet.</li>
-            <li>2 Lorem ipsum dolor sit amet.</li>
-            <li>3 Lorem ipsum dolor sit amet.</li>
-            <li>4 Lorem ipsum dolor sit amet.</li>
-            <li>5 Lorem ipsum dolor sit amet.</li>
-        </ol>
-    </div>
+    <div id="datos">
+        <h3>Completa estos datos:</h3>
+        <form action="">
+            <label for="Nombre"></label>
+            <input type="text" id="Nombre" placeholder="Nombre y Apellido" required>
+            <br> 
+            <label for="mail"></label>
+            <input type="email" name="Email" id="mail" placeholder="Correo Electrónico" required>
+            <br>
+            <label for="mensaje"></label>    
+            <textarea name="" id="" cols="30" rows="10" placeholder="Déjame un mensaje" required></textarea>
+            <br>     
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
 
-    <div class="educacion">
-        <img src="../img/SAE_Institute_Logo.png" alt="saemadrid">
-        <img src="../img/toulouse.jpeg" alt="toulouse">
-        <img src="../img/breklee.jpeg" alt="berklee">
-        <img src="../img/coderhouse.png" alt="coderhouse">
-    </div>
-
-    <div class="miFoto">
-        <img src="../img/DavidFoto.jpeg" alt="David">
-    </div>
-    <div class="mensaje">
-        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Ipsa magnam possimus in vitae nihil autem unde non esse voluptate modi"</p>
-    </div>
-
-
+        <p>Por lo general suelo contestar en menos de 24hrs, gracias por tu paciencia :D </p>
+    </div>  
+     
     <footer id="footer">
 
         <div>
@@ -125,7 +119,8 @@
 
 
     </footer>
-
+    
+    
 
     
 </body>
