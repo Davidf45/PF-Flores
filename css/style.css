@@ -27,7 +27,7 @@
 body{
     background-color: #537EF9;
 }
-.logo img {
+.container-fluid img {
     width: 150px;
     height: auto;
 }
