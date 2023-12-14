@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+#header {
+    background-color: #6C7794;
+
+}
+
+.menu{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    
+    li a{
+        text-decoration: none;
+    }
+}
+
+body{
+    background-color: #537EF9;
+}
+.container-fluid img {
+    width: 150px;
+    height: auto;
+}
+
+#intro {
+    background-image: url(../img/consola.jpeg);
+    width: auto;
+    height: 400px;
+    align-content: center;
+    h1{
+        font-family: 'Quicksand', sans-serif;
+        padding: 20px 150px;
+        color: white;
+        
+    }
+    h3{
+        font-family: 'Quicksand', sans-serif;
+        color: white ;
+        padding: 0px 150px;
+    }
+    button a{
+        text-decoration: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        color: #537EF9;
+        display: inline-block;
+        padding: 0px 0px;
+        position: relative;
+    
+    }
+}
+
+.servicios {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    h2{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 60px;
+       
+    }
+    div{
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 0px 150px;
+        border: 4px solid;
+        margin: 10px;
+       
+    }
+    button a{
+        text-decoration: none;
+    }
+    button{
+        height: 35px;
+        width: 90px;
+    }
+
+}
+
+.tituloServicio{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.serviciosdos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    h2{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 60px;
+       
+    }
+    div{
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 0px 150px;
+        border: 4px solid;
+        margin: 10px;
+       
+    }
+    button a{
+        text-decoration: none;
+    }
+    button{
+        height: 35px;
+        width: 90px;
+    }
+}
+
+.clientes {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0px 150px;
+    text-align: center;
+    border: 10px solid;
+    margin: 10px;
+    h2{
+        text-align: center;
+        padding: 40px 0px;
+    }
+    p{
+        text-align: center;
+        padding: 150px 150px;
+    }
+}
+
+#footer {
+    border-top: 2px solid;
+    margin: 0px 20px;
+    div{
+        font-family: 'Quicksand', sans-serif;
+        display: flex;
+        flex-direction: row;
+    }
+    div img{
+        width: 35px;
+    }
+    div {
+        display: flex;
+       
+        align-items: center;
+        
+    
+    }
+}
+
+.menuBot{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    li a{
+        text-decoration: none;
+    }
+    li {
+        display: inline-block;
+        padding: 20px 10px;
+    }
+    
+}
+/* Sobre mi */
+
+#sobreMi {
+    h1 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 50px;
+        margin: 30px 50px;
+    }    
+    p {
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin: 0px 30px;
+    }
+
+}
+
+.listaMi {
+    ol li{
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: left;
+        margin-left: 100px;
+        font-size: 20px;    
+    }
+    ol{
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+}
+
+.educacion img{
+    height: 200px;
+    width: auto;
+    display: inline-block;
+    padding: 0px 60px;
+    align-content: center;
+}
+
+.miFoto img{
+    height: 400px;
+    position: relative;
+    left: 200px;
+    padding-top: 100px;
+}
+
+.mensaje p {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 200px;
+    font-style: italic;
+    font-size: x-large;
+    padding-bottom: 50px;
+
+}
+
+/* Audio */
+
+.proyectoAudio {
+    h1{
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 180px;
+        padding-top: 80px;
+        font-size: 50px;
+        padding-bottom: 30px;
+    } 
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+        margin-right: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+.proyecto1 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.proyecto2 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.proyecto3 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.proyecto4 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Video */
+
+.proyectoVideo {
+    h1{
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 180px;
+        padding-top: 80px;
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+        margin-right: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+}
+
+.Proyecto1 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.Proyecto2 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.Proyecto3 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.Proyecto4 {
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-left: 1100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Contacto */
+
+#contacto{
+    h1{
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 180px;
+        padding-top: 80px;
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+        margin-right: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+#datos {
+    h3{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+        margin-right: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    form{
+        margin-left: 40px;
+        
+    }
+    form input{
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    form textarea{
+        border-radius: 5px;
+        margin-bottom: 20px;
+    
+    }
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+        margin-right: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    input{
+        height: 30px;
+        width: 300px;
+    }
+    textarea{
+        height: 300px;
+        width: 800px;
+    }
+    
+}

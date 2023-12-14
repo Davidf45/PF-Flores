@@ -159,6 +159,14 @@ body{
     
 }
 
+#footer div {
+    display: flex;
+   
+    align-items: center;
+    
+
+}
+
 .menuBot{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: right;
