@@ -3,29 +3,19 @@
   margin: 0px 20px;
 }
 #footer div {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   display: flex;
   flex-direction: row;
 }
 #footer div img {
-  width: 35px;
+  size-adjust: 20px;
+  width: 40px;
+  height: 35px;
+  margin: 10px;
 }
-#footer div {
-  display: flex;
+#footer div p {
   align-items: center;
-}
-
-.menuBot {
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: right;
-  font-size: 20px;
-}
-.menuBot li a {
-  text-decoration: none;
-}
-.menuBot li {
-  display: inline-block;
-  padding: 20px 10px;
+  margin-top: 20px;
 }
 
 * {
@@ -66,21 +56,26 @@ body {
   background-position: center;
   height: 400px;
   align-content: normal;
+  min-width: 300px;
 }
 .intro .intro__button {
   margin-top: 75px;
   margin-left: 150px;
   border-radius: 8px;
+  -webkit-backdrop-filter: blur(0.4rem);
+          backdrop-filter: blur(0.4rem);
 }
 .intro h1 {
   font-family: "Quicksand", sans-serif;
   padding: 50px 150px;
   color: white;
+  min-width: 300px;
 }
 .intro h3 {
   font-family: "Quicksand", sans-serif;
   color: white;
   padding: 0px 150px;
+  min-width: 300px;
 }
 .intro button a {
   text-decoration: none;
@@ -90,6 +85,7 @@ body {
   display: inline-block;
   padding: 0px 10px;
   position: relative;
+  min-width: 10px;
 }
 
 .tituloServicio {
@@ -181,8 +177,9 @@ body {
   font-family: "Quicksand", sans-serif;
   padding: 0px 150px;
   text-align: center;
-  border: 10px solid;
-  margin: 10px;
+  border: 7px solid;
+  border-radius: 8px;
+  margin: 100px;
 }
 .clientes h2 {
   text-align: center;
@@ -200,9 +197,10 @@ body {
 }
 #sobreMi p {
   font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   margin: 0px 30px;
+  min-width: 300px;
 }
 
 .listaMi ol li {
@@ -357,6 +355,7 @@ body {
   padding-top: 80px;
   font-size: 50px;
   padding-bottom: 30px;
+  min-width: 300px;
 }
 #contacto p {
   font-family: "Roboto Condensed", sans-serif;
