@@ -1,11 +1,20 @@
-#intro {
+.intro {
     background-image: url(../img/consola.jpeg);
-    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 400px;
-    align-content: center;
+    align-content: normal;
+    
+
+    & &__button {
+        margin-top: 75px;
+        margin-left: 150px;
+        border-radius: 8px;
+
+    }
     h1{
         font-family: 'Quicksand', sans-serif;
-        padding: 20px 150px;
+        padding: 50px 150px;
         color: white;
         
     }
@@ -13,14 +22,17 @@
         font-family: 'Quicksand', sans-serif;
         color: white ;
         padding: 0px 150px;
+        
+        
+        
     }
     button a{
         text-decoration: none;
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: 30px;
-        color: #537EF9;
+        font-size: 20px;
+        color: $colorPrincipal;
         display: inline-block;
-        padding: 0px 0px;
+        padding: 0px 10px;
         position: relative;
     
     }
