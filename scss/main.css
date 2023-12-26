@@ -1,3 +1,33 @@
+#footer {
+  border-top: 2px solid;
+  margin: 0px 20px;
+}
+#footer div {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+#footer div img {
+  width: 35px;
+}
+#footer div {
+  display: flex;
+  align-items: center;
+}
+
+.menuBot {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: right;
+  font-size: 20px;
+}
+.menuBot li a {
+  text-decoration: none;
+}
+.menuBot li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -121,37 +151,6 @@ body {
   padding: 150px 150px;
 }
 
-#footer {
-  border-top: 2px solid;
-  margin: 0px 20px;
-}
-#footer div {
-  font-family: "Quicksand", sans-serif;
-  display: flex;
-  flex-direction: row;
-}
-#footer div img {
-  width: 35px;
-}
-#footer div {
-  display: flex;
-  align-items: center;
-}
-
-.menuBot {
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: right;
-  font-size: 20px;
-}
-.menuBot li a {
-  text-decoration: none;
-}
-.menuBot li {
-  display: inline-block;
-  padding: 20px 10px;
-}
-
-/* Sobre mi */
 #sobreMi h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 50px;
@@ -198,7 +197,6 @@ body {
   padding-bottom: 50px;
 }
 
-/* Audio */
 .proyectoAudio h1 {
   font-family: "Quicksand", sans-serif;
   margin-left: 180px;
@@ -255,7 +253,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* Video */
 .proyectoVideo h1 {
   font-family: "Quicksand", sans-serif;
   margin-left: 180px;
@@ -312,7 +309,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* Contacto */
 #contacto h1 {
   font-family: "Quicksand", sans-serif;
   margin-left: 180px;

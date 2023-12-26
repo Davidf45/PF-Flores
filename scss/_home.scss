@@ -1,0 +1,70 @@
+.servicios {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    h2{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 60px;
+       
+    }
+    div{
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 0px 150px;
+        border: 4px solid;
+        margin: 10px;
+       
+    }
+    button a{
+        text-decoration: none;
+    }
+    button{
+        height: 35px;
+        width: 90px;
+    }
+
+}
+
+.tituloServicio{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.serviciosdos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    h2{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 60px;
+       
+    }
+    div{
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 0px 150px;
+        border: 4px solid;
+        margin: 10px;
+       
+    }
+    button a{
+        text-decoration: none;
+    }
+    button{
+        height: 35px;
+        width: 90px;
+    }
+}
+
+.clientes {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0px 150px;
+    text-align: center;
+    border: 10px solid;
+    margin: 10px;
+    h2{
+        text-align: center;
+        padding: 40px 0px;
+    }
+    p{
+        text-align: center;
+        padding: 150px 150px;
+    }
+}
