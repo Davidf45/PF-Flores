@@ -23,3 +23,17 @@ $colorSecundario: #6C7794;
         margin-left: 40px;
     }
 }
+
+@keyframes efectoZoom{
+    0% {
+        width: 100%;
+    }
+    50% {
+        width: 120%;
+
+    }
+    100% {
+        with: 100%;
+
+    }
+}
