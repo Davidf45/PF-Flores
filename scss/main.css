@@ -401,7 +401,7 @@ body {
   width: 800px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 412px) {
   .educacion img {
     height: 200px;
     width: auto;
@@ -426,9 +426,23 @@ body {
   }
   .servicios {
     display: inline-block;
+    margin-left: 10px;
+  }
+  .servicios div {
+    padding: 30px;
+    padding-top: 5px;
   }
   .serviciosdos {
     display: inline-block;
+    margin-left: 10px;
+  }
+  .serviciosdos div {
+    padding: 30px;
+    padding-top: 5px;
+  }
+  .clientes {
+    padding: 0px 0px;
+    margin: 10px;
   }
   .clientes p {
     padding: 0px;
@@ -437,14 +451,67 @@ body {
     background-position: center;
     align-content: normal;
   }
+  .intro h1 {
+    padding: 50px;
+  }
+  .intro h3 {
+    padding: 2px 50px;
+  }
   .proyectoAudio h1 {
     margin-left: 40px;
   }
-  .proyecto1 {
-    display: inline-block;
-    align-content: center;
+  .proyectoVideo h1 {
+    margin-left: 40px;
+  }
+  .proyecto1 p {
+    margin-left: 20px;
+  }
+  .proyecto1 iframe {
+    width: 80%;
+  }
+  .proyecto2 p {
+    margin-left: 20px;
+  }
+  .proyecto2 iframe {
+    width: 80%;
+  }
+  .proyecto3 p {
+    margin-left: 20px;
+  }
+  .proyecto3 iframe {
+    width: 80%;
+  }
+  .proyecto4 p {
+    margin-left: 20px;
+  }
+  .proyecto4 iframe {
+    width: 80%;
   }
   #contacto h1 {
     margin-left: 40px;
+  }
+  .Proyecto1 p {
+    margin-left: 20px;
+  }
+  .Proyecto1 iframe {
+    width: 80%;
+  }
+  .Proyecto2 p {
+    margin-left: 20px;
+  }
+  .Proyecto2 iframe {
+    width: 80%;
+  }
+  .Proyecto3 p {
+    margin-left: 20px;
+  }
+  .Proyecto3 iframe {
+    width: 80%;
+  }
+  .Proyecto4 p {
+    margin-left: 20px;
+  }
+  .Proyecto4 iframe {
+    width: 80%;
   }
 }/*# sourceMappingURL=main.css.map */

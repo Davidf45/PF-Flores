@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+@media (max-width: 412px){
     .educacion img{
         height: 200px;
         width: auto;
@@ -29,32 +29,117 @@
 
     .servicios {
         display: inline-block;
+        margin-left: 10px;
+        div{
+            padding: 30px;
+            padding-top: 5px;
+        }
     }
     .serviciosdos{
         display: inline-block;
+        margin-left: 10px;
+        div{
+            padding: 30px;
+            padding-top: 5px;
+        }
     }
 
-    .clientes p{
-       
-       padding: 0px;
+    .clientes {
+        padding: 0px 0px;
+        margin: 10px;
+        
+        p{
+        padding: 0px;
+        }
     }
 
     .intro {
         background-position: center;
         align-content: normal;
+        h1{
+            padding: 50px;
+        }
+        h3{
+            padding: 2px 50px;
+        }
     }
 
     .proyectoAudio h1{
         margin-left: 40px;
     }
 
+    .proyectoVideo h1{
+        margin-left: 40px;
+    }
+
     .proyecto1 {
-        display: inline-block;
-        align-content: center;
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
+    }
+    .proyecto2 {
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
+    }
+    .proyecto3 {
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
+    }
+    .proyecto4 {
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
     }
 
     #contacto h1{
         margin-left: 40px;
+    }
+
+    .Proyecto1 {
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
+    }
+    .Proyecto2 {
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
+    }
+    .Proyecto3 {
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
+    }
+    .Proyecto4 {
+        p{
+        margin-left: 20px;
+        }
+        iframe{
+            width: 80%;
+        }
     }
 }
  
