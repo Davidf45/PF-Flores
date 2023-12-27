@@ -62,8 +62,6 @@ body {
   margin-top: 75px;
   margin-left: 150px;
   border-radius: 8px;
-  -webkit-backdrop-filter: blur(0.4rem);
-          backdrop-filter: blur(0.4rem);
 }
 .intro h1 {
   font-family: "Quicksand", sans-serif;
@@ -259,9 +257,9 @@ body {
   margin-left: 40px;
 }
 .proyecto1 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .proyecto2 p {
@@ -269,9 +267,9 @@ body {
   margin-left: 40px;
 }
 .proyecto2 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .proyecto3 p {
@@ -279,9 +277,9 @@ body {
   margin-left: 40px;
 }
 .proyecto3 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .proyecto4 p {
@@ -289,9 +287,9 @@ body {
   margin-left: 40px;
 }
 .proyecto4 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .proyectoVideo h1 {
@@ -315,9 +313,9 @@ body {
   margin-left: 40px;
 }
 .Proyecto1 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .Proyecto2 p {
@@ -325,9 +323,9 @@ body {
   margin-left: 40px;
 }
 .Proyecto2 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .Proyecto3 p {
@@ -335,9 +333,9 @@ body {
   margin-left: 40px;
 }
 .Proyecto3 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .Proyecto4 p {
@@ -345,9 +343,9 @@ body {
   margin-left: 40px;
 }
 .Proyecto4 iframe {
-  margin-left: 1100px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 #contacto h1 {
@@ -420,7 +418,7 @@ body {
     padding-top: 100px;
   }
   .mensaje p {
-    margin-left: 20px;
+    margin-left: 10px;
     font-style: italic;
     font-size: x-large;
     padding-top: 50px;
@@ -431,5 +429,22 @@ body {
   }
   .serviciosdos {
     display: inline-block;
+  }
+  .clientes p {
+    padding: 0px;
+  }
+  .intro {
+    background-position: center;
+    align-content: normal;
+  }
+  .proyectoAudio h1 {
+    margin-left: 40px;
+  }
+  .proyecto1 {
+    display: inline-block;
+    align-content: center;
+  }
+  #contacto h1 {
+    margin-left: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

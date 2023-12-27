@@ -19,7 +19,7 @@
 
     .mensaje p {
         
-        margin-left: 20px;
+        margin-left: 10px;
         font-style: italic;
         font-size: x-large;
         padding-top: 50px;
@@ -32,6 +32,29 @@
     }
     .serviciosdos{
         display: inline-block;
+    }
+
+    .clientes p{
+       
+       padding: 0px;
+    }
+
+    .intro {
+        background-position: center;
+        align-content: normal;
+    }
+
+    .proyectoAudio h1{
+        margin-left: 40px;
+    }
+
+    .proyecto1 {
+        display: inline-block;
+        align-content: center;
+    }
+
+    #contacto h1{
+        margin-left: 40px;
     }
 }
  
