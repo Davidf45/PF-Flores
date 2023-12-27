@@ -73,36 +73,16 @@
     }
 
     .proyecto1 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
     .proyecto2 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
     .proyecto3 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
     .proyecto4 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
 
     #contacto h1{
@@ -110,36 +90,16 @@
     }
 
     .Proyecto1 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
     .Proyecto2 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
     .Proyecto3 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
     .Proyecto4 {
-        p{
-        margin-left: 20px;
-        }
-        iframe{
-            width: 80%;
-        }
+        @include proyectos;
     }
 }
  

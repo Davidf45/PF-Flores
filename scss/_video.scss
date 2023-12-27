@@ -19,49 +19,17 @@
 }
 
 .Proyecto1 {
-    p{
-        font-family: 'Roboto Condensed', sans-serif;
-        margin-left: 40px;
-    }
-    iframe{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-    }
+    @include proyectos;
 }
 
 .Proyecto2 {
-    p{
-        font-family: 'Roboto Condensed', sans-serif;
-        margin-left: 40px;
-    }
-    iframe{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-    }
+    @include proyectos;
 }
 
 .Proyecto3 {
-    p{
-        font-family: 'Roboto Condensed', sans-serif;
-        margin-left: 40px;
-    }
-    iframe{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-    }
+    @include proyectos;
 }
 
 .Proyecto4 {
-    p{
-        font-family: 'Roboto Condensed', sans-serif;
-        margin-left: 40px;
-    }
-    iframe{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-    }
+    @include proyectos;
 }

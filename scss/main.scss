@@ -11,3 +11,15 @@ $colorSecundario: #6C7794;
 @import 'video';
 @import 'hablemos';
 @import 'media';
+
+@mixin proyectos{
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+    }
+    iframe{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+}
