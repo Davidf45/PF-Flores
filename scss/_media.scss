@@ -1,0 +1,37 @@
+@media (max-width: 768px){
+    .educacion img{
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 0px 60px;
+        justify-content: center;
+        
+    }
+
+    .miFoto img{
+        height: 400px;
+        position: relative;
+        left: 10px;
+        padding-top: 100px;
+    }
+
+    .mensaje p {
+        
+        margin-left: 20px;
+        font-style: italic;
+        font-size: x-large;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+    }
+
+    .servicios {
+        display: inline-block;
+    }
+    .serviciosdos{
+        display: inline-block;
+    }
+}
+ 
