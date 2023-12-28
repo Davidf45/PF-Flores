@@ -1,12 +1,31 @@
+@mixin proyectos{
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    iframe{
+        
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        width: 80%;
+    }
+}
+
+
 @media (max-width: 412px){
+
+
     .educacion img{
-        height: 200px;
+        height: 160px;
         width: auto;
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
         padding: 0px 60px;
-        justify-content: center;
+       
+        
         
     }
 
@@ -15,6 +34,7 @@
         position: relative;
         left: 10px;
         padding-top: 100px;
+        border-radius: 8px;
     }
 
     .mensaje p {
@@ -25,6 +45,12 @@
         padding-top: 50px;
         padding-bottom: 50px;
     
+    }
+
+    .tituloServicio {
+        margin-left: 120px;
+        
+
     }
 
     .servicios {
@@ -48,8 +74,9 @@
         padding: 0px 0px;
         margin: 10px;
         
-        p{
+        ul li{
         padding: 0px;
+        text-align: left;
         }
     }
 
@@ -61,6 +88,9 @@
         }
         h3{
             padding: 2px 50px;
+        }
+        & &__button {
+            margin-left: 130px;
         }
     }
 

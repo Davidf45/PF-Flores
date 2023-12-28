@@ -14,6 +14,7 @@
   margin: 10px;
 }
 #footer div p {
+  font-size: xx-small;
   align-items: center;
   margin-top: 20px;
 }
@@ -56,7 +57,7 @@ body {
   background-position: center;
   height: 400px;
   align-content: normal;
-  min-width: 300px;
+  width: 100%;
 }
 .intro .intro__button {
   margin-top: 75px;
@@ -84,6 +85,7 @@ body {
   padding: 0px 10px;
   position: relative;
   min-width: 10px;
+  letter-spacing: 2px;
 }
 
 .tituloServicio {
@@ -177,15 +179,17 @@ body {
   text-align: center;
   border: 7px solid;
   border-radius: 8px;
-  margin: 100px;
+  margin: 150px;
 }
 .clientes h2 {
   text-align: center;
   padding: 40px 0px;
 }
-.clientes p {
+.clientes ul li {
   text-align: center;
-  padding: 150px 150px;
+  padding: 0px 150px;
+  list-style: none;
+  margin-bottom: 40px;
 }
 
 #sobreMi h1 {
@@ -225,6 +229,7 @@ body {
   position: relative;
   left: 200px;
   padding-top: 100px;
+  border-radius: 8px;
 }
 
 .mensaje p {
@@ -259,7 +264,7 @@ body {
 .proyecto1 iframe {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 40px;
+  margin-left: 150px;
 }
 
 .proyecto2 p {
@@ -269,7 +274,7 @@ body {
 .proyecto2 iframe {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 40px;
+  margin-left: 150px;
 }
 
 .proyecto3 p {
@@ -279,7 +284,7 @@ body {
 .proyecto3 iframe {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 40px;
+  margin-left: 150px;
 }
 
 .proyecto4 p {
@@ -289,7 +294,7 @@ body {
 .proyecto4 iframe {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 40px;
+  margin-left: 150px;
 }
 
 .proyectoVideo h1 {
@@ -379,6 +384,7 @@ body {
 #datos form input {
   border-radius: 5px;
   margin-bottom: 20px;
+  color: #537EF9;
 }
 #datos form textarea {
   border-radius: 5px;
@@ -403,19 +409,19 @@ body {
 
 @media (max-width: 412px) {
   .educacion img {
-    height: 200px;
+    height: 160px;
     width: auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     padding: 0px 60px;
-    justify-content: center;
   }
   .miFoto img {
     height: 400px;
     position: relative;
     left: 10px;
     padding-top: 100px;
+    border-radius: 8px;
   }
   .mensaje p {
     margin-left: 10px;
@@ -423,6 +429,9 @@ body {
     font-size: x-large;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .tituloServicio {
+    margin-left: 120px;
   }
   .servicios {
     display: inline-block;
@@ -444,8 +453,9 @@ body {
     padding: 0px 0px;
     margin: 10px;
   }
-  .clientes p {
+  .clientes ul li {
     padding: 0px;
+    text-align: left;
   }
   .intro {
     background-position: center;
@@ -457,6 +467,9 @@ body {
   .intro h3 {
     padding: 2px 50px;
   }
+  .intro .intro__button {
+    margin-left: 130px;
+  }
   .proyectoAudio h1 {
     margin-left: 40px;
   }
@@ -464,54 +477,94 @@ body {
     margin-left: 40px;
   }
   .proyecto1 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .proyecto1 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
   .proyecto2 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .proyecto2 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
   .proyecto3 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .proyecto3 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
   .proyecto4 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .proyecto4 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
   #contacto h1 {
     margin-left: 40px;
   }
   .Proyecto1 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .Proyecto1 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
   .Proyecto2 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .Proyecto2 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
   .Proyecto3 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .Proyecto3 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
   .Proyecto4 p {
-    margin-left: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .Proyecto4 iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
     width: 80%;
   }
 }/*# sourceMappingURL=main.css.map */
