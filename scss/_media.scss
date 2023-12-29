@@ -17,6 +17,7 @@
 @media (max-width: 412px){
 
 
+
     .educacion img{
         height: 160px;
         width: auto;
@@ -131,5 +132,11 @@
     .Proyecto4 {
         @include proyectos;
     }
+    #datos textarea {
+        height: 300px;
+        width: 300px;
+    }
+
+    
 }
  

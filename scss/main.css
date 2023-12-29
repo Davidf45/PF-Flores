@@ -42,8 +42,8 @@
 }
 
 body {
-  background-color: #537EF9;
-  background: linear-gradient(#6C7794, #537EF9);
+  background-color: #DDDBDA;
+  background: linear-gradient(#DDDBDA, #F2F3F4);
 }
 
 .container-fluid img {
@@ -67,25 +67,27 @@ body {
 .intro h1 {
   font-family: "Quicksand", sans-serif;
   padding: 50px 150px;
-  color: white;
-  min-width: 300px;
+  color: #895941;
 }
 .intro h3 {
   font-family: "Quicksand", sans-serif;
   color: white;
   padding: 0px 150px;
-  min-width: 300px;
 }
 .intro button a {
   text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
-  color: #537EF9;
+  color: #895941;
   display: inline-block;
   padding: 0px 10px;
   position: relative;
   min-width: 10px;
   letter-spacing: 2px;
+}
+.intro button:hover {
+  background-color: #DDDBDA;
+  color: #F2F3F4;
 }
 
 .tituloServicio {
@@ -121,6 +123,7 @@ body {
 }
 .servicios button a {
   text-decoration: none;
+  color: #895941;
 }
 .servicios button {
   height: 35px;
@@ -160,6 +163,7 @@ body {
 }
 .serviciosdos button a {
   text-decoration: none;
+  color: #895941;
 }
 .serviciosdos button {
   height: 35px;
@@ -222,6 +226,11 @@ body {
   display: inline-block;
   padding: 0px 60px;
   align-content: center;
+}
+
+.educacion img:hover {
+  background-color: #DDDBDA;
+  color: #F2F3F4;
 }
 
 .miFoto img {
@@ -384,7 +393,7 @@ body {
 #datos form input {
   border-radius: 5px;
   margin-bottom: 20px;
-  color: #537EF9;
+  color: #895941;
 }
 #datos form textarea {
   border-radius: 5px;
@@ -566,5 +575,9 @@ body {
     margin-bottom: 30px;
     margin-left: 40px;
     width: 80%;
+  }
+  #datos textarea {
+    height: 300px;
+    width: 300px;
   }
 }/*# sourceMappingURL=main.css.map */
